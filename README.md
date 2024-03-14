@@ -9,6 +9,7 @@ Despues de poner un punto de ruptura en la linea 10 y al pasar entre la 10 y 11 
 ![image](https://github.com/LittleSix46/Aleatorios/assets/163340762/84d254a5-d5f0-42f6-8d9c-6d8fef9c02db)
 
 Para corregir este problema simplemente cambiamos en la linea 11 el codigo
+
 num_aleat[i] = (int)Math.random()*100; por num_aleat[i] = (int)(Math.random()*100);
 
 Despues de hacer este cambio podemos observar que ahora el programa si funciona de manera correcta generando la cantidad de numeros aleatorios deseados.
